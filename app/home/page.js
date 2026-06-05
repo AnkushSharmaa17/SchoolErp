@@ -7,10 +7,11 @@ export default function Home() {
       WELCOME TO OUR SCHOOL 
     </h1>
     <div className="bg-zinc-400 h-40 w-full ">
-      <img src="" alt="" />
+      
     </div>
 
   </main>
   </>
   );
 }
+
