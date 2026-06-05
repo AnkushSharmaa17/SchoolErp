@@ -64,10 +64,10 @@ export default function About() {
 </div>
 
 <div className="flex justify-center gap-10 px-10 py-10 shadow-gray-400 m-2">
-  <div className="w-[50%] h-[400px] bg-grey-100 ">
+  <div className="w-[50%] h-[400px] bg-grey-100 flex flex-col items-center justify-start">
       <h1 className="text-4xl py-10 flex items-center justify-start px-10">Our Clients</h1>
       <p>We are proud to have worked with a diverse range of clients, including schools, districts, and educational organizations around the world. Our clients trust us to provide them with the tools and support they need to succeed, and we are committed to helping them achieve their goals.</p>
-      <button className="border-red-700 w-[200px] h-[50px] mt-4 rounded-lg shadow-md">Learn More</button>
+      <button className="border-2 border-red-700 w-[200px] h-[50px] mt-4 rounded-lg shadow-md">Learn More</button>
   </div>
   <div className="w-[50%] h-[500px] bg-red-700 relative flex items-center justify-center">
       <Image
@@ -90,13 +90,54 @@ export default function About() {
           className="shadow-lg absolute right-10 left-10 top-10 bottom-10"
         />
   </div>
-  <div className="w-[50%] h-[400px] bg-grey-100 ">
+  <div className="w-[50%] h-[400px] bg-grey-100 flex flex-col items-center justify-start">
       <h1 className="text-4xl py-10 flex items-center justify-start px-10">Our Clients</h1>
       <p>We are proud to have worked with a diverse range of clients, including schools, districts, and educational organizations around the world. Our clients trust us to provide them with the tools and support they need to succeed, and we are committed to helping them achieve their goals.</p>
+      <button className="border-2 border-purple-700 w-[200px] h-[50px] mt-4 rounded-lg shadow-md ">Learn More</button>
   </div>
   
 </div>
-
+<div className="flex flex-col justify-center items-center gap-10 px-10 py-10 shadow-gray-400 m-2">
+  <h1 className="text-4xl">FinaliSite by the numbers</h1>
+  <div className="flex justify-center gap-10 px-10 py-10 shadow-gray-400 m-2">
+      <div className="flex flex-col items-start justify-start gap-5 px-10 py-10 shadow-gray-400 m-2">
+        <h2 className="text-7xl text-red-500">7,000+</h2>
+        <h3>Schools and districts worldwide</h3>
+        <p>lorem90 ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p className="bg-red-500 w-[150px] h-[3px]"></p>
+      </div>
+      <div className="flex flex-col items-start justify-start gap-5 px-10 py-10 shadow-gray-400 m-2">
+        <h2 className="text-7xl text-red-500">119</h2>
+        <h3 className="text-2xl">Countries served</h3>
+        <p>lorem90 ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p className="bg-red-500 w-[150px] h-[3px]"></p>
+      </div>
+      <div className="flex flex-col items-start justify-start gap-5 px-10 py-10 shadow-gray-400 m-2">
+        <h2 className="text-7xl text-red-500">500+</h2>
+        <h3>Employees worldwide</h3>
+        <p>lorem90 ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p className="bg-red-500 w-[150px] h-[3px]"></p>
+      </div>
+      <div className="flex flex-col items-start justify-start gap-5 px-10 py-10 shadow-gray-400 m-2">
+        <h2 className="text-7xl text-red-500">100%</h2>
+        <h3>Customer satisfaction</h3>
+        <p>lorem90 ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p className="bg-red-500 w-[150px] h-[3px]"></p>
+      </div>
+      <div className="flex flex-col items-start justify-start gap-5 px-10 py-10 shadow-gray-400 m-2">
+        <h2 className="text-7xl text-red-500">20+</h2>
+        <h3>Years in business</h3>
+        <p>lorem90 ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p className="bg-red-500 w-[150px] h-[3px]"></p>
+      </div>
+    
+  </div>
+</div>
 </main>
   );
 }
