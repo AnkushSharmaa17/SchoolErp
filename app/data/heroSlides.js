@@ -1,3 +1,4 @@
+
 const heroSlides = [
   {
     title: "Welcome to Our Company",
